@@ -1,0 +1,53 @@
+name: Altcoin Market Watcher V3
+
+on:
+  workflow_dispatch:
+    inputs:
+      test_mode:
+        description: "true: only test Telegram; false: scan futures market"
+        type: choice
+        options: ["true", "false"]
+        default: "true"
+  schedule:
+    - cron: '2,7,12,17,22,27,32,37,42,47,52,57 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: altcoin-market-watcher-state
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      TEST_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.test_mode || 'false' }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Syntax check
+        run: python -m py_compile watcher.py
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Scan and notify
+        run: python watcher.py
+      - name: Persist alert state (only after real scan)
+        if: success() && env.TEST_MODE != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state.json
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update watcher alert state [skip ci]"
+            git push
+          fi
