@@ -1,43 +1,12 @@
 {
-  "market": "binance_usdm_futures",
-  "max_symbols": 80,
-  "min_24h_quote_volume_usdt": 10000000,
-  "baseline_candles": 30,
-  "max_alerts_per_run": 8,
-  "awakening": {
-    "enabled": true,
-    "min_relative_volume": 5.0,
-    "min_5m_volume_usdt": 100000,
-    "max_abs_price_move_pct": 2.5,
-    "min_abs_oi_change_pct": 1.0,
-    "min_score": 7,
-    "cooldown_minutes": 30
-  },
-  "momentum": {
-    "enabled": true,
-    "min_relative_volume": 3.0,
-    "min_5m_volume_usdt": 250000,
-    "min_abs_price_move_pct": 2.0,
-    "min_score": 7,
-    "cooldown_minutes": 15
-  },
-  "early_buy_watch": {
-    "enabled": true,
-    "min_relative_volume": 4.0,
-    "min_5m_volume_usdt": 100000,
-    "min_buy_pressure_pct": 58.0,
-    "min_oi_change_pct": 1.0,
-    "min_price_move_pct": 0.0,
-    "max_price_move_pct": 2.0,
-    "min_score": 8,
-    "cooldown_minutes": 30
-  },
-  "whale_trade": {
-    "enabled": true,
-    "min_trade_usdt": 1000000,
-    "scan_top_symbols": 18,
-    "max_trades_per_symbol": 1000,
-    "lookback_minutes": 5,
-    "cooldown_minutes": 10
-  }
+  "max_pairs": 55,
+  "min_24h_turnover_usdt": 5000000,
+  "max_alerts_per_run": 6,
+  "min_score": 6,
+  "trade_sampling_min_rvol": 2.5,
+  "awakening": {"enabled": true, "min_rvol": 5.0, "max_abs_move": 2.5, "min_oi_percent": 0.5},
+  "momentum": {"enabled": true, "min_rvol": 3.0, "min_abs_move": 2.0},
+  "early_buy": {"enabled": true, "min_rvol": 4.0, "max_move": 2.0, "min_buy_pressure": 57.0},
+  "whale": {"enabled": true, "min_trade_usdt": 1000000, "scan_top_pairs": 15, "max_trade_age_seconds": 90},
+  "cooldown_minutes": {"AWAKENING": 30, "MOMENTUM": 15, "EARLY BUY WATCH": 30}
 }

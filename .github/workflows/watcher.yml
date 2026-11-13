@@ -1,31 +1,28 @@
-name: Altcoin Market Watcher V3
+name: OKX Altcoin Watcher V4
 
 on:
+  schedule:
+    - cron: '3,8,13,18,23,28,33,38,43,48,53,58 * * * *'
   workflow_dispatch:
     inputs:
       test_mode:
-        description: "true: only test Telegram; false: scan futures market"
+        description: 'true = Telegram test only, false = live scan'
+        required: true
+        default: 'true'
         type: choice
-        options: ["true", "false"]
-        default: "true"
-  schedule:
-    - cron: '2,7,12,17,22,27,32,37,42,47,52,57 * * * *'
+        options: ['true', 'false']
 
 permissions:
   contents: write
 
 concurrency:
-  group: altcoin-market-watcher-state
+  group: altcoin-watcher-v4
   cancel-in-progress: false
 
 jobs:
   scan:
     runs-on: ubuntu-latest
     timeout-minutes: 12
-    env:
-      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-      TEST_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.test_mode || 'false' }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -40,14 +37,18 @@ jobs:
       - name: Unit tests
         run: python -m unittest discover -s tests -v
       - name: Scan and notify
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TEST_MODE: ${{ github.event.inputs.test_mode || 'false' }}
         run: python watcher.py
-      - name: Persist alert state (only after real scan)
-        if: success() && env.TEST_MODE != 'true'
+      - name: Persist state (only after live scan)
+        if: ${{ success() && (github.event_name == 'schedule' || github.event.inputs.test_mode == 'false') }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add state.json
-          if ! git diff --staged --quiet; then
-            git commit -m "chore: update watcher alert state [skip ci]"
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: save watcher state [skip ci]'
             git push
           fi
