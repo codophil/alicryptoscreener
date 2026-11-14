@@ -1,5 +1,6 @@
 """Public market alert scanner. No exchange credentials or trading operations."""
 import concurrent.futures as cf
+import copy
 import datetime as dt
 import json
 import math
@@ -43,7 +44,7 @@ class Client:
             if time.monotonic()>=self.deadline: raise APIError('time budget reached')
             url=URL[self.source]+path+('?' + urllib.parse.urlencode(params) if params else '')
             try:
-                with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'MarketWatcher/5.0','Accept':'application/json'}),timeout=9) as r:
+                with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'MarketWatcher/5.1','Accept':'application/json'}),timeout=9) as r:
                     out=json.load(r)
                 if self.source in ('OKX','KUCOIN'):
                     if str(out.get('code')) != ('0' if self.source=='OKX' else '200000'):
@@ -142,7 +143,7 @@ def oi_change(old,new,stamp,now):
     if not old or new is None or new<=0 or stamp is None or not 0<=now-stamp<=180: return None,None
     try: t,v=old; elapsed=(stamp-t)/60
     except (TypeError,ValueError): return None,None
-    if not 3<=elapsed<=20 or not v>0: return None,None
+    if not 3<=elapsed<=40 or not v>0: return None,None
     return 100*(new/v-1),elapsed
 
 def sample_pressure(trades,start,volume):
@@ -152,8 +153,29 @@ def sample_pressure(trades,start,volume):
     if volume<=0 or not .90<=total/volume<=1.10: return None
     return 100*sum(v for side,v in valid if side=='buy')/total
 
+def snapshot_oi(m,s,now,old):
+    if m.oi_ts is None or abs(m.oi_ts-(s.ts+300))>180:
+        return None,None
+    return oi_change(old,m.oi,m.oi_ts,max(now,m.oi_ts))
+
+def catchup_signals(m, rows, now, cfg, last_seen=None):
+    # Evaluate each completed candle with its own preceding baseline, never future data.
+    end=int(now//300)*300
+    limit=cfg.get('catchup_candles',12)
+    floor=end-limit*300
+    if last_seen is None: floor=max(floor,end-3*300)
+    current=[(i,c) for i,c in enumerate(rows) if floor<=c.ts<end and (last_seen is None or c.ts>last_seen)]
+    signals=[]; checked=[]; n=cfg['baseline_candles']
+    for i,c in current:
+        if i<n or any(b.ts-a.ts!=300 for a,b in zip(rows[i-n:i],rows[i-n+1:i+1])): continue
+        checked.append(c.ts)
+        sig=candle_signal(m,rows[:i+1],c.ts+300,cfg)
+        if sig: signals.append(sig)
+    return signals,checked
+
 def enrich(client,m,s,now,old):
-    oi,mins=oi_change(old,m.oi,m.oi_ts,max(now,m.oi_ts or now))
+    # A current OI snapshot must never be attributed to an older candle.
+    oi,mins=snapshot_oi(m,s,now,old)
     p=s.pressure; label=s.pressure_label
     try:
         if m.source=='OKX' and m.multiplier>0:
@@ -161,7 +183,7 @@ def enrich(client,m,s,now,old):
             trades=[(int(x['ts'])/1000,x['side'],float(x['sz'])*float(x['px'])*m.multiplier) for x in rr]
             p=sample_pressure(trades,s.ts,s.volume)
         elif m.source=='GATE':
-            rr=client.get('/futures/usdt/contract_stats',contract=m.symbol,interval='5m',limit=5)
+            rr=client.get('/futures/usdt/contract_stats',contract=m.symbol,interval='5m',limit=15)
             rr=sorted(rr,key=lambda x:int(x['time'])); target=s.ts+300
             # Stats are point-in-time; label the reported taker ratio separately.
             match=[x for x in rr if int(x['time'])==target]
@@ -215,12 +237,16 @@ def scan_cex(src,cfg,state,now):
     if cap>0: ordered=ordered[:cap]
     snapshots={m.symbol:[m.oi_ts,m.oi] for m in rows if m.oi is not None and m.oi>0 and m.oi_ts is not None and 0<=time.time()-m.oi_ts<=180}
     old=state.get('oi',{}).get(src,{})
-    output=[]; errors=0; attempted=0; analyzed=0
+    output=[]; errors=0; attempted=0; analyzed=0; checked_count=0
+    previous_seen=state.get('last_candle',{}).get(src,{})
+    seen={k:v for k,v in previous_seen.items() if now-v<86400*2}
     def one(m):
-        bars=candles(client,m,now,cfg['baseline_candles'])
-        if len(bars)<cfg['baseline_candles']+1 or bars[-1].ts!=int(now//300)*300-300 or any(b.ts-a.ts!=300 for a,b in zip(bars[-cfg['baseline_candles']-1:],bars[-cfg['baseline_candles']:])): raise APIError('missing/latest candle unavailable')
-        s=candle_signal(m,bars,now,cfg)
-        return s
+        bars=candles(client,m,now,cfg['baseline_candles']+cfg.get('catchup_candles',12))
+        if len(bars)<cfg['baseline_candles']+1: raise APIError('insufficient candles')
+        signals,checked=catchup_signals(m,bars,now,cfg,previous_seen.get(m.symbol))
+        if not checked and (not bars or bars[-1].ts<int(now//300)*300-300) and previous_seen.get(m.symbol,-1)<int(now//300)*300-300:
+            raise APIError('latest candle unavailable')
+        return signals,checked
     # Bounded batches: finish full candle scan before any optional enrichment.
     pre=[]
     with cf.ThreadPoolExecutor(max_workers=8) as pool:
@@ -230,8 +256,10 @@ def scan_cex(src,cfg,state,now):
             for m,f in zip(batch,futures):
                 attempted+=1
                 try:
-                    signal=f.result(); analyzed+=1
-                    if signal and (abs(signal.move)<=cfg['awakening_max_move'] or abs(signal.move)>=cfg['momentum_min_move']): pre.append((m,signal))
+                    signals,checked=f.result(); analyzed+=1; checked_count+=len(checked)
+                    if checked: seen[m.symbol]=max(checked)
+                    for signal in signals:
+                        if abs(signal.move)<=cfg['awakening_max_move'] or abs(signal.move)>=cfg['momentum_min_move']: pre.append((m,signal))
                 except Exception as e:
                     errors+=1
                     if errors<=5: print(f'{src} {m.symbol}: {type(e).__name__} {str(e)[:120]}',flush=True)
@@ -244,11 +272,11 @@ def scan_cex(src,cfg,state,now):
             except Exception as e: print(f'KUCOIN {m.symbol} OI detail: {type(e).__name__}',flush=True)
         if src=='BINANCE_SPOT': enriched=s
         elif client.blocked or time.monotonic()>=client.deadline-10:
-            oi,mins=oi_change(old.get(m.symbol),m.oi,m.oi_ts,max(now,m.oi_ts or now)); enriched=replace(s,oi=oi,oi_minutes=mins)
+            oi,mins=snapshot_oi(m,s,now,old.get(m.symbol)); enriched=replace(s,oi=oi,oi_minutes=mins)
         else: enriched=enrich(client,m,s,now,old.get(m.symbol))
         output.extend(classify(enriched,cfg))
-    print(f'{src}: listed={len(rows)} eligible={len(eligible)} attempted={attempted} analyzed={analyzed} errors={errors} unattempted={len(eligible)-attempted} candidates={len(output)} OI={len(snapshots)}',flush=True)
-    return output,snapshots,(start+attempted)%max(1,len(eligible)) if attempted<len(eligible) else 0,analyzed
+    print(f'{src}: listed={len(rows)} eligible={len(eligible)} attempted={attempted} analyzed={analyzed} errors={errors} unattempted={len(eligible)-attempted} candles_checked={checked_count} candidates={len(output)} OI={len(snapshots)}',flush=True)
+    return output,snapshots,(start+attempted)%max(1,len(eligible)) if attempted<len(eligible) else 0,analyzed,seen
 
 def dex_signal(x,now,cfg):
     chain=x.get('chainId',''); address=x.get('pairAddress',''); base=x.get('baseToken') or {}; token=base.get('address',''); asset=base.get('symbol','')
@@ -334,7 +362,7 @@ def combine(items):
             score=min(10,best.score+(1 if len(venues)>1 else 0))
             tier='HOT' if best.volume>=500000 and score>=7 else 'STRONG' if best.volume>=200000 and score>=5 else 'NORMAL'
             out.append(replace(best,confirms=venues,score=score,tier=tier))
-    return sorted(out,key=lambda x:(x.score,x.volume,x.rvol),reverse=True)
+    return sorted(out,key=lambda x:(x.score,x.ts,x.volume,x.rvol),reverse=True)
 
 def alert_key(s):
     return '|'.join(('DEX' if s.source=='DEX' else 'CEX',s.symbol if s.source=='DEX' else s.asset,s.kind,'UP' if s.move>0 else 'DOWN' if s.move<0 else 'FLAT',s.direction))
@@ -350,13 +378,15 @@ def message(s):
     oi='N/A' if s.oi is None else f'{s.oi:+.2f}% ({s.oi_minutes:.1f}m)'
     pressure='N/A' if s.pressure is None else f'Buy {s.pressure:.0f}% / Sell {100-s.pressure:.0f}%\n({s.pressure_label})'
     stamp=dt.datetime.fromtimestamp(s.ts+(0 if s.source=='DEX' else 300),dt.timezone.utc).strftime('%H:%M UTC')
-    t=f'ALTCOIN MARKET WATCHER V5\n{icon} {s.kind} | {tier} {s.tier}\n\n#{s.asset[:35]}/USDT' if s.source!='DEX' else f'ALTCOIN MARKET WATCHER V5\n{icon} DEX {s.kind} | {tier} {s.tier}\n\n{s.asset[:35]} | {s.symbol.split(":",1)[0]}'
+    t=f'ALTCOIN MARKET WATCHER V5.1\n{icon} {s.kind} | {tier} {s.tier}\n\n#{s.asset[:35]}/USDT' if s.source!='DEX' else f'ALTCOIN MARKET WATCHER V5.1\n{icon} DEX {s.kind} | {tier} {s.tier}\n\n{s.asset[:35]} | {s.symbol.split(":",1)[0]}'
     t+=f'\nMarket: {s.source}\nDirection: {s.direction}\n──────────────────\n💰 Price: {s.price:.9g} (5m: {s.move:+.2f}%)\n📊 Vol 5m: {money(s.volume)} ({s.rvol:.1f}x)\nBaseline: {s.baseline}\n⚖️ {pressure}\n🧲 OI contracts: {oi}\n⭐ Activity: {s.score}/10 {"🟩"*s.score}{"⬜"*(10-s.score)}\n'
     t+=f'Extra volume vs baseline: {money(s.volume-s.volume/s.rvol)}\n'
     if s.source!='DEX': t+=f'High-volume candles (last 3, ≥2x baseline): {s.persistent}/3\n'
     if s.liquidity is not None: t+=f'Liquidity: {money(s.liquidity)}\n'
     if len(s.confirms)>1: t+='Same ticker / price direction: '+', '.join(s.confirms)+'\n'
-    t+=f'Data: {stamp}\n'
+    age=max(0,(time.time()-s.ts-(0 if s.source=='DEX' else 300))/60)
+    t+=f'Data: {stamp} | age {age:.0f}m\n'
+    if s.source!='DEX' and age>=10: t+='⏪ Catch-up candle (historical alert)\n'
     return t+(s.link or f'https://www.tradingview.com/chart/?symbol={urllib.parse.quote({"OKX":"OKX:","GATE":"GATEIO:","KUCOIN":"KUCOIN:","BINANCE_SPOT":"BINANCE:"}[s.source]+s.symbol.replace("-USDT-SWAP","USDT.P").replace("_USDT","USDT.P").replace("USDTM","USDT.P"),safe="")}')
 
 def telegram(text):
@@ -375,8 +405,9 @@ def save_state(state):
 
 def main():
     cfg=json.loads((ROOT/'config.json').read_text()); mode=os.getenv('TEST_MODE','false').lower()
-    if mode=='true': telegram('✅ Altcoin Market Watcher V5: Telegram test successful.'); return
+    if mode=='true': telegram('✅ Altcoin Market Watcher V5.1: Telegram test successful.'); return
     now=time.time(); state=json.loads((ROOT/'state.json').read_text()); state=state if state.get('version')==5 else {'version':5}
+    retry_state=copy.deepcopy(state)
     all_signals=[]; stats={}; snapshots=state.setdefault('oi',{}); cursors=state.setdefault('cursor',{}); sources=[s for s in URL if s!='GECKO' and cfg['sources'].get(s)]
     with cf.ThreadPoolExecutor(max_workers=5) as pool:
         tasks={pool.submit(scan_dex,cfg,state,now) if src=='DEX' else pool.submit(scan_cex,src,cfg,state,now):src for src in sources}
@@ -385,17 +416,16 @@ def main():
             try:
                 if src=='DEX': signals,tokens,count=f.result(); state['dex_tokens']=tokens
                 else:
-                    signals,oi,cursor,count=f.result(); cursors[src]=cursor
+                    signals,oi,cursor,count,seen=f.result(); cursors[src]=cursor; state.setdefault('last_candle',{})[src]=seen
                     if oi:
                         previous=snapshots.get(src,{})
-                        snapshots[src]={**{k:v for k,v in previous.items() if now-v[0]<1200},**oi}
+                        snapshots[src]={**{k:v for k,v in previous.items() if now-v[0]<2700},**oi}
                 all_signals.extend(signals); stats[src]=count
             except Exception as e:
                 stats[src]=0; print(f'{src} FAILED: {type(e).__name__} {str(e)[:160]}',flush=True)
     if not any(stats.values()): raise RuntimeError('No enabled source produced usable data')
     history=state.setdefault('alerts',{}); state['alerts']=history={k:v for k,v in history.items() if now-v.get('sent',0)<86400*2}
     candidates=combine(all_signals); sent=0
-    if mode!='dry': save_state(state)
     shown=0
     for s in candidates:
         if sent>=cfg['max_alerts']: break
@@ -404,7 +434,10 @@ def main():
             print(message(s),flush=True); shown+=1
             if shown>=cfg['max_alerts']: break
             continue
-        telegram(message(s)); history[alert_key(s)]={'sent':time.time(),'candle':s.ts}; save_state(state); sent+=1
-    print(f'V5 SUMMARY sources={stats} raw={len(all_signals)} combined={len(candidates)} sent={sent}',flush=True)
+        telegram(message(s)); history[alert_key(s)]={'sent':time.time(),'candle':s.ts}; sent+=1
+        # If a later send fails, retain sent history but retry uncommitted candle scans.
+        retry_state['alerts']=history; save_state(retry_state)
+    if mode!='dry': save_state(state)
+    print(f'V5.1 SUMMARY sources={stats} raw={len(all_signals)} combined={len(candidates)} sent={sent}',flush=True)
 
 if __name__=='__main__': main()

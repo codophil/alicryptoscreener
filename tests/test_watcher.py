@@ -46,11 +46,28 @@ class Tests(unittest.TestCase):
     def test_mock_cex_scan(self):
         m=self.m('BINANCE_SPOT'); m.symbol='ABCUSDT'
         with patch('watcher.markets',return_value=[m]),patch('watcher.candles',return_value=self.bars()):
-            result,oi,cursor,count=w.scan_cex('BINANCE_SPOT',C,{},NOW)
+            result,oi,cursor,count,seen=w.scan_cex('BINANCE_SPOT',C,{},NOW)
         self.assertEqual(count,1); self.assertEqual(result[0].kind,'AWAKENING')
     def test_mock_dex_scan(self):
         d={'chainId':'solana','tokenAddress':'addr'}
         with patch.object(w.Client,'get',side_effect=[[d],[d],[d],{'data':[]},[]]):
             result,tokens,count=w.scan_dex(C,{},NOW)
         self.assertEqual(count,1); self.assertIn('solana:addr',tokens); self.assertEqual(result,[])
+    def test_catchup_three(self):
+        rows=[w.Candle(NOW-2700+i*300,100,101,10000 if i<6 else 90000*(i-5),None) for i in range(9)]
+        signals,checked=w.catchup_signals(self.m(),rows,NOW,C)
+        self.assertEqual(checked,[NOW-900,NOW-600,NOW-300]); self.assertEqual(signals[0].ts,NOW-900)
+        self.assertAlmostEqual(signals[0].rvol,9)
+    def test_catchup_watermark(self):
+        _,checked=w.catchup_signals(self.m(),self.bars(),NOW,C,NOW-300); self.assertEqual(checked,[])
+    def test_catchup_limit(self):
+        rows=[w.Candle(NOW-6000+i*300,100,101,10000) for i in range(20)]
+        _,checked=w.catchup_signals(self.m(),rows,NOW,C,NOW-6000); self.assertEqual(len(checked),12)
+    def test_oi_40m(self):
+        self.assertAlmostEqual(w.oi_change([NOW-2100,100],104,NOW,NOW)[0],4)
+        self.assertEqual(w.oi_change([NOW-2500,100],104,NOW,NOW),(None,None))
+    def test_no_future_oi(self):
+        m=replace(self.m(),oi=104,oi_ts=NOW); s=replace(self.s(),ts=NOW-900)
+        self.assertEqual(w.snapshot_oi(m,s,NOW,[NOW-900,100]),(None,None))
+        self.assertAlmostEqual(w.snapshot_oi(m,self.s(),NOW,[NOW-900,100])[0],4)
 if __name__=='__main__': unittest.main()

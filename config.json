@@ -21,7 +21,7 @@
   "early_buy_min_oi": 0.5,
   "cooldown_minutes": {
     "AWAKENING": 30,
-    "MOMENTUM": 15,
+    "MOMENTUM": 10,
     "EARLY BUY WATCH": 30
   },
   "dex_min_liquidity": 50000,
@@ -37,7 +37,7 @@
     "polygon",
     "avalanche"
   ],
-  "source_budget_seconds": 210,
+  "source_budget_seconds": 330,
   "request_rates": {
     "OKX": 6,
     "GATE": 5,
@@ -57,5 +57,6 @@
     "USDE",
     "USD1"
   ],
-  "dex_gecko_discovery": true
+  "dex_gecko_discovery": true,
+  "catchup_candles": 12
 }
