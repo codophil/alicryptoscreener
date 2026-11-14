@@ -1,2176 +1,2176 @@
 {
   "oi": {
     "0G-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3813821.0
+      "observed_at": 1794615317908,
+      "oi": 3934579.0
     },
     "1INCH-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 6414806.0
+      "observed_at": 1794615317908,
+      "oi": 6369307.0
     },
     "2Z-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3052665.0
+      "observed_at": 1794615317908,
+      "oi": 3104057.0
     },
     "A-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 854286.0
+      "observed_at": 1794615317908,
+      "oi": 847899.0
     },
     "AAOI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 89916.03000000001
+      "observed_at": 1794615317908,
+      "oi": 87946.53
     },
     "AAPL-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 46181.50000000002
+      "observed_at": 1794615317908,
+      "oi": 45564.300000000025
     },
     "AAVE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1079076.0
+      "observed_at": 1794615317908,
+      "oi": 1092447.1999999997
     },
     "ABBV-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 103.84
+      "observed_at": 1794615317908,
+      "oi": 103.47999999999999
     },
     "ACH-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 605053.0
+      "observed_at": 1794615317908,
+      "oi": 607490.0
     },
     "ACN-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 415.42
+      "observed_at": 1794615317908,
+      "oi": 413.63
     },
     "ACT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 83664922.0
+      "observed_at": 1794615317908,
+      "oi": 82894392.0
     },
     "ACU-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 85405.0
+      "observed_at": 1794615317908,
+      "oi": 84505.0
     },
     "ADA-USD-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 448454.0
+      "observed_at": 1794615317908,
+      "oi": 448591.0
     },
     "ADA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1349839.9000000004
+      "observed_at": 1794615317908,
+      "oi": 1356662.0000000002
     },
     "ADBE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1476.64
+      "observed_at": 1794615317908,
+      "oi": 1481.55
     },
     "ADI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 51.04
+      "observed_at": 1794615317908,
+      "oi": 51.26
     },
     "AEHR-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2396.8999999999996
+      "observed_at": 1794615317908,
+      "oi": 2438.0
     },
     "AEON-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2868268.0
+      "observed_at": 1794615317908,
+      "oi": 3083380.0
     },
     "AERO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1021743.0
+      "observed_at": 1794615317908,
+      "oi": 981799.0
     },
     "AEVO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 12406276.0
+      "observed_at": 1794615317908,
+      "oi": 12344203.0
     },
     "AGLD-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3323434.0
+      "observed_at": 1794615317908,
+      "oi": 3268421.0
     },
     "AI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 355451.0
+      "observed_at": 1794615317908,
+      "oi": 355367.0
     },
     "AIXBT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2374255.0
+      "observed_at": 1794615317908,
+      "oi": 2398578.0
     },
     "AKE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 9593539.0
+      "observed_at": 1794615317908,
+      "oi": 9351684.0
     },
     "ALAB-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1465.1499999999999
+      "observed_at": 1794615317908,
+      "oi": 1515.85
     },
     "ALGO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3179028.0
+      "observed_at": 1794615317908,
+      "oi": 3111717.0
     },
     "ALLO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1042667.0
+      "observed_at": 1794615317908,
+      "oi": 1010499.0
     },
     "AMAT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1559.95
+      "observed_at": 1794615317908,
+      "oi": 1535.17
     },
     "AMC-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 23018.0
+      "observed_at": 1794615317908,
+      "oi": 23073.0
     },
     "AMD-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 19053.519999999997
+      "observed_at": 1794615317908,
+      "oi": 17137.72
     },
     "AMGN-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 77.99000000000001
+      "observed_at": 1794615317908,
+      "oi": 76.8
     },
     "AMZN-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 16884.57
+      "observed_at": 1794615317908,
+      "oi": 16890.489999999998
     },
     "ANIME-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 16259545.0
+      "observed_at": 1794615317908,
+      "oi": 16137528.0
     },
     "ANTHROPIC-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 110519.69600000001
+      "observed_at": 1794615317908,
+      "oi": 109877.38500000001
     },
     "APE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 103802784.0
+      "observed_at": 1794615317908,
+      "oi": 102415366.0
     },
     "API3-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1784934.0
+      "observed_at": 1794615317908,
+      "oi": 1794786.0
     },
     "APLD-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 6257.3
+      "observed_at": 1794615317908,
+      "oi": 6259.3
     },
     "APP-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3010.5499999999997
+      "observed_at": 1794615317908,
+      "oi": 2978.22
     },
     "APR-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 4021528.0
+      "observed_at": 1794615317908,
+      "oi": 3953645.0
     },
     "APT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 6868742.0
+      "observed_at": 1794615317908,
+      "oi": 6731144.0
     },
     "AR-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 4111044.0
+      "observed_at": 1794615317908,
+      "oi": 4024826.0
     },
     "ARB-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 10247834.6
+      "observed_at": 1794615317908,
+      "oi": 10183417.5
     },
     "ARKM-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 4337110.0
+      "observed_at": 1794615317908,
+      "oi": 4305856.0
     },
     "ARM-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 6766.57
+      "observed_at": 1794615317908,
+      "oi": 6860.73
     },
     "ARX-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 514204.0
+      "observed_at": 1794615317908,
+      "oi": 504387.0
     },
     "ASML-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 696.1840000000001
+      "observed_at": 1794615317908,
+      "oi": 698.022
     },
     "ASTER-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 15593133.0
+      "observed_at": 1794615317908,
+      "oi": 15367762.0
     },
     "ASTS-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 15151.060000000001
+      "observed_at": 1794615317908,
+      "oi": 15258.84
     },
     "AT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 184586.0
+      "observed_at": 1794615317908,
+      "oi": 178144.0
     },
     "ATH-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1255054.0
+      "observed_at": 1794615317908,
+      "oi": 1234057.0
     },
     "ATOM-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3021375.0
+      "observed_at": 1794615317908,
+      "oi": 3064783.0
     },
     "AUCTION-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2346917.0
+      "observed_at": 1794615317908,
+      "oi": 2340623.0
     },
     "AVAX-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1557944.8
+      "observed_at": 1794615317908,
+      "oi": 1505880.9000000001
     },
     "AVGO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 10634.179999999998
+      "observed_at": 1794615317908,
+      "oi": 10720.859999999999
     },
     "AVNT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 7258451.0
+      "observed_at": 1794615317908,
+      "oi": 7301615.0
     },
     "AXIS-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 627889.0
+      "observed_at": 1794615317908,
+      "oi": 618528.0
     },
     "AXS-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 13827024.0
+      "observed_at": 1794615317908,
+      "oi": 13559295.0
     },
     "AXTI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 61679.869999999995
+      "observed_at": 1794615317908,
+      "oi": 61346.29
     },
     "AZTEC-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 170381.0
+      "observed_at": 1794615317908,
+      "oi": 168690.0
     },
     "BABY-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2645382.0
+      "observed_at": 1794615317908,
+      "oi": 2529558.0
     },
     "BAC-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1356.8999999999999
+      "observed_at": 1794615317908,
+      "oi": 1355.6
     },
     "BAND-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 940310.0
+      "observed_at": 1794615317908,
+      "oi": 933248.0
     },
     "BARD-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 22176310.0
+      "observed_at": 1794615317908,
+      "oi": 22745655.0
     },
     "BASED-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3872068.0
+      "observed_at": 1794615317908,
+      "oi": 3842843.0
     },
     "BAT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1547232.0
+      "observed_at": 1794615317908,
+      "oi": 1609752.0
     },
     "BB-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 28954.0
+      "observed_at": 1794615317908,
+      "oi": 26515.0
     },
     "BCH-USD-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 221296.0
+      "observed_at": 1794615317908,
+      "oi": 350711.0
     },
     "BCH-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 899945.4999999999
+      "observed_at": 1794615317908,
+      "oi": 923169.4
     },
     "BE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 7129.909999999999
+      "observed_at": 1794615317908,
+      "oi": 6975.759999999999
     },
     "BEAT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 4665352.8
+      "observed_at": 1794615317908,
+      "oi": 4402696.1
     },
     "BERA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 78474377.0
+      "observed_at": 1794615317908,
+      "oi": 105535584.0
     },
     "BICO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 67050540.0
+      "observed_at": 1794615317908,
+      "oi": 67550707.0
     },
     "BIDU-USDT-SWAP": {
-      "observed_at": 1794596488923,
+      "observed_at": 1794615317908,
       "oi": 551.4
     },
     "BIGTIME-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3681947.0
+      "observed_at": 1794615317908,
+      "oi": 3680845.0
     },
     "BILL-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1609605.0
+      "observed_at": 1794615317908,
+      "oi": 1658834.0
     },
     "BIO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 43316214.0
+      "observed_at": 1794615317908,
+      "oi": 43209449.0
     },
     "BLEND-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 495060.0
+      "observed_at": 1794615317908,
+      "oi": 528435.0
     },
     "BLUR-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 16261063.0
+      "observed_at": 1794615317908,
+      "oi": 16071944.0
     },
     "BMNR-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 170624.5
+      "observed_at": 1794615317908,
+      "oi": 166561.50000000003
     },
     "BNB-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 6124586.0
+      "observed_at": 1794615317908,
+      "oi": 6171244.0
     },
     "BOME-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1681254.0
+      "observed_at": 1794615317908,
+      "oi": 1666379.0
     },
     "BONK-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 5655046.0
+      "observed_at": 1794615317908,
+      "oi": 5663174.0
     },
     "BOT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 8752.2
+      "observed_at": 1794615317908,
+      "oi": 9018.1
     },
     "BRETT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 277817.0
+      "observed_at": 1794615317908,
+      "oi": 267840.0
     },
     "BREV-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 5383056.0
+      "observed_at": 1794615317908,
+      "oi": 5383739.0
     },
     "BRKB-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 492.90000000000003
+      "observed_at": 1794615317908,
+      "oi": 492.3
     },
     "BSB-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 855080.0
+      "observed_at": 1794615317908,
+      "oi": 850020.0
     },
     "BSP-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 7807.000000000001
+      "observed_at": 1794615317908,
+      "oi": 7837.5
     },
     "BTC-USD-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 8152618.3
+      "observed_at": 1794615317908,
+      "oi": 8167594.3
     },
     "BTC-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3402748.7600000165
+      "observed_at": 1794615317908,
+      "oi": 3362654.240000016
     },
     "BTW-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1595242.0
+      "observed_at": 1794615317908,
+      "oi": 1719426.0
     },
     "BWET-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 118.85999999999999
+      "observed_at": 1794615317908,
+      "oi": 116.25999999999999
     },
     "BX-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1110.97
+      "observed_at": 1794615317908,
+      "oi": 1177.29
     },
     "BZ-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 16250602.0
+      "observed_at": 1794615317908,
+      "oi": 15931017.0
     },
     "CAP-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 581316.0
+      "observed_at": 1794615317908,
+      "oi": 587817.0
     },
     "CASHCAT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1569436.0
+      "observed_at": 1794615317908,
+      "oi": 1548103.0
     },
     "CBRS-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 24224.890000000003
+      "observed_at": 1794615317908,
+      "oi": 22926.850000000002
     },
     "CC-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3210526.0
+      "observed_at": 1794615317908,
+      "oi": 3191984.0
     },
     "CEG-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 108.67999999999999
+      "observed_at": 1794615317908,
+      "oi": 110.8
     },
     "CELO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 5922073.0
+      "observed_at": 1794615317908,
+      "oi": 5967364.0
     },
     "CFX-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3919765.0
+      "observed_at": 1794615317908,
+      "oi": 3895732.0
     },
     "CGNX-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1246.8999999999999
+      "observed_at": 1794615317908,
+      "oi": 1273.8
     },
     "CHIP-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 553127.0
+      "observed_at": 1794615317908,
+      "oi": 537390.0
     },
     "CHZ-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 10154242.0
+      "observed_at": 1794615317908,
+      "oi": 10176687.0
     },
     "CIEN-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 416.69
+      "observed_at": 1794615317908,
+      "oi": 385.67
     },
     "CL-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3306163.0
+      "observed_at": 1794615317908,
+      "oi": 3274651.0
     },
     "CNPY-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 290859.0
+      "observed_at": 1794615317908,
+      "oi": 295711.0
     },
     "COAI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 29413033.0
+      "observed_at": 1794615317908,
+      "oi": 29349739.0
     },
     "COHR-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 5867.049999999999
+      "observed_at": 1794615317908,
+      "oi": 5856.13
     },
     "COIN-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 33729.01
+      "observed_at": 1794615317908,
+      "oi": 32165.04
     },
     "COMP-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 558873.0
+      "observed_at": 1794615317908,
+      "oi": 599507.0
     },
     "CORE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 84033252.0
+      "observed_at": 1794615317908,
+      "oi": 84082852.0
     },
     "COST-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 288.686
+      "observed_at": 1794615317908,
+      "oi": 286.56999999999994
     },
     "CP-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1715336.0
+      "observed_at": 1794615317908,
+      "oi": 1721401.0
     },
     "CRCL-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 394076.39999999997
+      "observed_at": 1794615317908,
+      "oi": 386963.5
     },
     "CRDO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2339.5200000000004
+      "observed_at": 1794615317908,
+      "oi": 2342.4700000000003
     },
     "CRM-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1404.9599999999998
+      "observed_at": 1794615317908,
+      "oi": 1404.8599999999997
     },
     "CRML-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 4499.0
+      "observed_at": 1794615317908,
+      "oi": 4614.0
     },
     "CRO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1660228.0
+      "observed_at": 1794615317908,
+      "oi": 1667244.0
     },
     "CRV-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 21097277.0
+      "observed_at": 1794615317908,
+      "oi": 21821971.0
     },
     "CRWD-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1255.2999999999997
+      "observed_at": 1794615317908,
+      "oi": 1229.2399999999998
     },
     "CRWV-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 47072.17
+      "observed_at": 1794615317908,
+      "oi": 43766.73
     },
     "CSCO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1718.53
+      "observed_at": 1794615317908,
+      "oi": 1720.51
     },
     "CSOPSAMSUNG2L-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 33869.0
+      "observed_at": 1794615317908,
+      "oi": 33934.0
     },
     "CSOPSKHYNIX2L-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 220477.0
+      "observed_at": 1794615317908,
+      "oi": 225683.0
     },
     "CT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1782442.0
+      "observed_at": 1794615317908,
+      "oi": 1812518.0
     },
     "CVNA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1060.0
+      "observed_at": 1794615317908,
+      "oi": 1069.7999999999997
     },
     "CVX-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 184707.0
+      "observed_at": 1794615317908,
+      "oi": 182087.0
     },
     "CXMT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 445825.0
+      "observed_at": 1794615317908,
+      "oi": 441011.0
     },
     "CYPH-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 80773.0
+      "observed_at": 1794615317908,
+      "oi": 81857.0
     },
     "DASH-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 6411096.0
+      "observed_at": 1794615317908,
+      "oi": 6316433.0
     },
     "DATA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 996772.0
+      "observed_at": 1794615317908,
+      "oi": 1034586.0
     },
     "DDOG-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 380.78000000000003
+      "observed_at": 1794615317908,
+      "oi": 395.8100000000001
     },
     "DELL-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 5324.0
+      "observed_at": 1794615317908,
+      "oi": 5163.799999999999
     },
     "DGAI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 119961.0
+      "observed_at": 1794615317908,
+      "oi": 114911.0
     },
     "DKNG-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 6526.7
+      "observed_at": 1794615317908,
+      "oi": 7109.3
     },
     "DNA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1385603.0
+      "observed_at": 1794615317908,
+      "oi": 1374871.0
     },
     "DOGE-USD-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1924911.0
+      "observed_at": 1794615317908,
+      "oi": 1937497.0
     },
     "DOGE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1227731.7700000003
+      "observed_at": 1794615317908,
+      "oi": 1198658.7100000002
     },
     "DOOD-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 976633.0
+      "observed_at": 1794615317908,
+      "oi": 958600.0
     },
     "DOS-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 775542.0
+      "observed_at": 1794615317908,
+      "oi": 804202.0
     },
     "DOT-USD-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 204687.0
+      "observed_at": 1794615317908,
+      "oi": 205743.0
     },
     "DOT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 11619332.0
+      "observed_at": 1794615317908,
+      "oi": 11720177.0
     },
     "DRAM-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 115737.40000000001
+      "observed_at": 1794615317908,
+      "oi": 112012.2
     },
     "DYDX-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 12572048.0
+      "observed_at": 1794615317908,
+      "oi": 12335308.0
     },
     "EDEN-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 8022131.0
+      "observed_at": 1794615317908,
+      "oi": 7961421.0
     },
     "EDGE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 602305.0
+      "observed_at": 1794615317908,
+      "oi": 596526.0
     },
     "EGLD-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1163471.0
+      "observed_at": 1794615317908,
+      "oi": 1144640.0
     },
     "EIDO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2226.0
+      "observed_at": 1794615317908,
+      "oi": 2206.0
     },
     "EIGEN-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 7505854.0
+      "observed_at": 1794615317908,
+      "oi": 7352021.0
     },
     "ENA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 8624532.0
+      "observed_at": 1794615317908,
+      "oi": 8421503.0
     },
     "ENJ-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1500234.0
+      "observed_at": 1794615317908,
+      "oi": 1491674.0
     },
     "ENS-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3144068.0
+      "observed_at": 1794615317908,
+      "oi": 3137653.0
     },
     "ENSO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1207301.0
+      "observed_at": 1794615317908,
+      "oi": 1192309.0
     },
     "ESP-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 96806.0
+      "observed_at": 1794615317908,
+      "oi": 95556.0
     },
     "ETC-USD-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 176974.0
+      "observed_at": 1794615317908,
+      "oi": 176695.0
     },
     "ETC-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 81226.84000000001
+      "observed_at": 1794615317908,
+      "oi": 81473.12000000001
     },
     "ETH-USD-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 23070946.0
+      "observed_at": 1794615317908,
+      "oi": 23110857.0
     },
     "ETH-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 7001907.370000011
+      "observed_at": 1794615317908,
+      "oi": 6910920.340000007
     },
     "ETHFI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 7169343.0
+      "observed_at": 1794615317908,
+      "oi": 7200347.0
     },
     "ETHW-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 27442716.0
+      "observed_at": 1794615317908,
+      "oi": 27404879.0
     },
     "EWJ-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3579.75
+      "observed_at": 1794615317908,
+      "oi": 3595.59
     },
     "EWT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1182.09
+      "observed_at": 1794615317908,
+      "oi": 1095.74
     },
     "EWY-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 28930.760000000002
+      "observed_at": 1794615317908,
+      "oi": 28413.510000000002
     },
     "EWZ-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 13708.900000000001
+      "observed_at": 1794615317908,
+      "oi": 13675.399999999998
     },
     "EWZS-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3248.2000000000003
+      "observed_at": 1794615317908,
+      "oi": 3197.4
     },
     "F-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 715889.0
+      "observed_at": 1794615317908,
+      "oi": 713166.0
     },
     "FARTCOIN-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 17338433.0
+      "observed_at": 1794615317908,
+      "oi": 16813681.0
     },
     "FET-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1030628.0
+      "observed_at": 1794615317908,
+      "oi": 1012170.0
     },
     "FIL-USD-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 284045.0
+      "observed_at": 1794615317908,
+      "oi": 291023.0
     },
     "FIL-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 140979035.0
+      "observed_at": 1794615317908,
+      "oi": 141709480.0
     },
     "FLEX-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 277.2
+      "observed_at": 1794615317908,
+      "oi": 286.2
     },
     "FLNC-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 78832.2
+      "observed_at": 1794615317908,
+      "oi": 78920.0
     },
     "FLOCK-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 101740.0
+      "observed_at": 1794615317908,
+      "oi": 107349.0
     },
     "FLOKI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 305156.0
+      "observed_at": 1794615317908,
+      "oi": 306195.0
     },
     "FLOW-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2252276.0
+      "observed_at": 1794615317908,
+      "oi": 2230520.0
     },
     "FLY-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 8452.599999999999
+      "observed_at": 1794615317908,
+      "oi": 8236.9
     },
     "FOGO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 26736410.0
+      "observed_at": 1794615317908,
+      "oi": 26794654.0
     },
     "FWDI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 17377.0
+      "observed_at": 1794615317908,
+      "oi": 18319.0
     },
     "GALA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 79239221.0
+      "observed_at": 1794615317908,
+      "oi": 78379393.0
     },
     "GAS-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 271316.0
+      "observed_at": 1794615317908,
+      "oi": 270828.0
     },
     "GE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 180.21
+      "observed_at": 1794615317908,
+      "oi": 180.67
     },
     "GEV-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 553.997
+      "observed_at": 1794615317908,
+      "oi": 555.51
     },
     "GIGADEV-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 18169.0
+      "observed_at": 1794615317908,
+      "oi": 18077.0
     },
     "GIGGLE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2092333.0
+      "observed_at": 1794615317908,
+      "oi": 2080875.0
     },
     "GILD-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 276.31
+      "observed_at": 1794615317908,
+      "oi": 267.85
     },
     "GLM-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 185710.0
+      "observed_at": 1794615317908,
+      "oi": 181282.0
     },
     "GLW-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 11845.550000000001
+      "observed_at": 1794615317908,
+      "oi": 11653.0
     },
     "GME-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 13516.299999999997
+      "observed_at": 1794615317908,
+      "oi": 13307.899999999998
     },
     "GMT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 56308977.0
+      "observed_at": 1794615317908,
+      "oi": 54399691.0
     },
     "GMX-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 503238.0
+      "observed_at": 1794615317908,
+      "oi": 498665.0
     },
     "GOOGL-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 107074.3
+      "observed_at": 1794615317908,
+      "oi": 105914.18
     },
     "GPRO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 262612.0
+      "observed_at": 1794615317908,
+      "oi": 258264.0
     },
     "GPS-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 4723278.0
+      "observed_at": 1794615317908,
+      "oi": 4706975.0
     },
     "GRAM-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 7500246.0
+      "observed_at": 1794615317908,
+      "oi": 7350731.0
     },
     "GRASS-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 11043842.0
+      "observed_at": 1794615317908,
+      "oi": 11158338.0
     },
     "GRT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3176432.0
+      "observed_at": 1794615317908,
+      "oi": 3159261.0
     },
     "GRVT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1653623.0
+      "observed_at": 1794615317908,
+      "oi": 1661618.0
     },
     "GS-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 75.66
+      "observed_at": 1794615317908,
+      "oi": 76.18
     },
     "GTLB-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1119.9
+      "observed_at": 1794615317908,
+      "oi": 1117.4
     },
     "H-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 516089.7
+      "observed_at": 1794615317908,
+      "oi": 499495.10000000003
     },
     "H100-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 24856.0
+      "observed_at": 1794615317908,
+      "oi": 22384.0
     },
     "HANMI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 238.19
+      "observed_at": 1794615317908,
+      "oi": 241.33999999999997
     },
     "HBAR-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 916420.6000000001
+      "observed_at": 1794615317908,
+      "oi": 903197.1000000001
     },
     "HIMS-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 14326.1
+      "observed_at": 1794615317908,
+      "oi": 14411.0
     },
     "HMSTR-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 62004433.0
+      "observed_at": 1794615317908,
+      "oi": 61656832.0
     },
     "HOME-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1933087.0
+      "observed_at": 1794615317908,
+      "oi": 1894978.0
     },
     "HOOD-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 32809.90000000001
+      "observed_at": 1794615317908,
+      "oi": 33157.80000000001
     },
     "HPE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3481.1
+      "observed_at": 1794615317908,
+      "oi": 3479.0
     },
     "HUMA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1879405.0
+      "observed_at": 1794615317908,
+      "oi": 1835023.0
     },
     "HUT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 969.77
+      "observed_at": 1794615317908,
+      "oi": 952.1600000000001
     },
     "HYPE-USD-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 242359.0
+      "observed_at": 1794615317908,
+      "oi": 245104.0
     },
     "HYPE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 14204722.0
+      "observed_at": 1794615317908,
+      "oi": 13906475.0
     },
     "HYUNDAI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 652.3800000000001
+      "observed_at": 1794615317908,
+      "oi": 656.9300000000001
     },
     "IBKR-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 199.8
+      "observed_at": 1794615317908,
+      "oi": 196.0
     },
     "IBM-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3900.72
+      "observed_at": 1794615317908,
+      "oi": 3880.2099999999996
     },
     "ICP-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 229733424.0
+      "observed_at": 1794615317908,
+      "oi": 238623834.0
     },
     "IMX-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 11444263.0
+      "observed_at": 1794615317908,
+      "oi": 11696872.0
     },
     "INFQ-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 8486.6
+      "observed_at": 1794615317908,
+      "oi": 8663.6
     },
     "INIT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2146562.0
+      "observed_at": 1794615317908,
+      "oi": 2233053.0
     },
     "INJ-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 8398163.0
+      "observed_at": 1794615317908,
+      "oi": 8430566.0
     },
     "INTC-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 460242.29999999993
+      "observed_at": 1794615317908,
+      "oi": 455476.79999999993
     },
     "INTW-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 188595.3
+      "observed_at": 1794615317908,
+      "oi": 182454.3
     },
     "IONQ-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 7408.2
+      "observed_at": 1794615317908,
+      "oi": 7283.0
     },
     "IOST-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1106352.0
+      "observed_at": 1794615317908,
+      "oi": 1069671.0
     },
     "IOTA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1401703.0
+      "observed_at": 1794615317908,
+      "oi": 1432045.0
     },
     "IREN-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 46073.899999999994
+      "observed_at": 1794615317908,
+      "oi": 46099.299999999996
     },
     "IRYS-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 735234.0
+      "observed_at": 1794615317908,
+      "oi": 716537.0
     },
     "ISRG-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 198.87
+      "observed_at": 1794615317908,
+      "oi": 201.18
     },
     "IWM-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1224.76
+      "observed_at": 1794615317908,
+      "oi": 1211.66
     },
     "JELLYJELLY-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 238862.0
+      "observed_at": 1794615317908,
+      "oi": 238975.0
     },
     "JNJ-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 575.88
+      "observed_at": 1794615317908,
+      "oi": 572.5400000000001
     },
     "JP225-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1.9966999999999997
+      "observed_at": 1794615317908,
+      "oi": 1.9930999999999999
     },
     "JPM-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 377.32000000000005
+      "observed_at": 1794615317908,
+      "oi": 382.18
     },
     "JTO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 6741811.0
+      "observed_at": 1794615317908,
+      "oi": 6609052.0
     },
     "JUP-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1482858.0
+      "observed_at": 1794615317908,
+      "oi": 1425952.0
     },
     "KAITO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 10447017.0
+      "observed_at": 1794615317908,
+      "oi": 10374822.0
     },
     "KAT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1983815.0
+      "observed_at": 1794615317908,
+      "oi": 1940661.0
     },
     "KGEN-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 331548.0
+      "observed_at": 1794615317908,
+      "oi": 337382.0
     },
     "KII-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 55028.0
+      "observed_at": 1794615317908,
+      "oi": 54907.0
     },
     "KIOXIA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 9894.46
+      "observed_at": 1794615317908,
+      "oi": 9941.800000000001
     },
     "KITE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1047920.0
+      "observed_at": 1794615317908,
+      "oi": 1045968.0
     },
     "KLAC-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1649.5900000000001
+      "observed_at": 1794615317908,
+      "oi": 1647.64
     },
     "KMNO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 186968.0
+      "observed_at": 1794615317908,
+      "oi": 185554.0
     },
     "KO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 5883.900000000001
+      "observed_at": 1794615317908,
+      "oi": 5851.3
     },
     "KORU-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1020039.04
+      "observed_at": 1794615317908,
+      "oi": 953388.48
     },
     "KR200-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 103.166
+      "observed_at": 1794615317908,
+      "oi": 103.039
     },
     "KSM-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1636448.0
+      "observed_at": 1794615317908,
+      "oi": 1654730.0
     },
     "KSTR-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 35302.6
+      "observed_at": 1794615317908,
+      "oi": 34735.6
     },
     "LA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1156530.0
+      "observed_at": 1794615317908,
+      "oi": 1142690.0
     },
     "LAB-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 5642892.899999999
+      "observed_at": 1794615317908,
+      "oi": 5778381.4
     },
     "LAYER-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 4660494.0
+      "observed_at": 1794615317908,
+      "oi": 4648784.0
     },
     "LDO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 8474032.0
+      "observed_at": 1794615317908,
+      "oi": 8529571.0
     },
     "LGELECTRONICS-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 419.3
+      "observed_at": 1794615317908,
+      "oi": 411.32
     },
     "LIGHT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3302061.0
+      "observed_at": 1794615317908,
+      "oi": 3273710.0
     },
     "LINEA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 4526413.0
+      "observed_at": 1794615317908,
+      "oi": 4511083.0
     },
     "LINK-USD-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 332842.0
+      "observed_at": 1794615317908,
+      "oi": 335563.0
     },
     "LINK-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2079531.9000000001
+      "observed_at": 1794615317908,
+      "oi": 2065660.7000000004
     },
     "LIT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 7354315.0
+      "observed_at": 1794615317908,
+      "oi": 7285034.0
     },
     "LITE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 7278.809999999999
+      "observed_at": 1794615317908,
+      "oi": 7101.23
     },
     "LLY-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 526.37
+      "observed_at": 1794615317908,
+      "oi": 518.7
     },
     "LPT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 6725912.0
+      "observed_at": 1794615317908,
+      "oi": 6738336.0
     },
     "LQTY-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 997905.0
+      "observed_at": 1794615317908,
+      "oi": 1029546.0
     },
     "LRCX-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1484.55
+      "observed_at": 1794615317908,
+      "oi": 1496.0199999999998
     },
     "LTC-USD-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 633212.0
+      "observed_at": 1794615317908,
+      "oi": 634846.0
     },
     "LTC-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 487568.9000000001
+      "observed_at": 1794615317908,
+      "oi": 485416.00000000006
     },
     "LUNA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 15257917.0
+      "observed_at": 1794615317908,
+      "oi": 15273853.0
     },
     "LUNR-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 8981.699999999999
+      "observed_at": 1794615317908,
+      "oi": 9032.6
     },
     "LYTE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 9346.199999999999
+      "observed_at": 1794615317908,
+      "oi": 9110.3
     },
     "MAGIC-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 17404908.0
+      "observed_at": 1794615317908,
+      "oi": 17175263.0
     },
     "MANA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 731202.0
+      "observed_at": 1794615317908,
+      "oi": 741621.0
     },
     "MARA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 24707.3
+      "observed_at": 1794615317908,
+      "oi": 24513.1
     },
     "MASK-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1273866.0
+      "observed_at": 1794615317908,
+      "oi": 1263596.0
     },
     "MCD-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 987.35
+      "observed_at": 1794615317908,
+      "oi": 1017.6399999999999
     },
     "ME-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 6581651.0
+      "observed_at": 1794615317908,
+      "oi": 6601064.0
     },
     "MEGA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2239247.0
+      "observed_at": 1794615317908,
+      "oi": 2146220.0
     },
     "MELI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 30.826
+      "observed_at": 1794615317908,
+      "oi": 30.104999999999997
     },
     "MEME-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 8528783.0
+      "observed_at": 1794615317908,
+      "oi": 8539947.0
     },
     "MERL-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 45158115.0
+      "observed_at": 1794615317908,
+      "oi": 43501326.0
     },
     "MET-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3844274.0
+      "observed_at": 1794615317908,
+      "oi": 3792784.0
     },
     "META-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 6727.879999999999
+      "observed_at": 1794615317908,
+      "oi": 6626.829999999999
     },
     "METIS-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 910250.0
+      "observed_at": 1794615317908,
+      "oi": 920284.0
     },
     "MEW-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1521930.0
+      "observed_at": 1794615317908,
+      "oi": 1503671.0
     },
     "MINA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 20293887.0
+      "observed_at": 1794615317908,
+      "oi": 20235888.0
     },
     "MINIMAX-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 110492.7
+      "observed_at": 1794615317908,
+      "oi": 111480.6
     },
     "MMT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 903974.0
+      "observed_at": 1794615317908,
+      "oi": 896539.0
     },
     "MON-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 16355927.0
+      "observed_at": 1794615317908,
+      "oi": 16366588.0
     },
     "MOODENG-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3053210.0
+      "observed_at": 1794615317908,
+      "oi": 3048947.0
     },
     "MOONSHOT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 8101.0
+      "observed_at": 1794615317908,
+      "oi": 8115.3
     },
     "MORPHO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1489123.0
+      "observed_at": 1794615317908,
+      "oi": 1494835.0
     },
     "MOVE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 6594208.0
+      "observed_at": 1794615317908,
+      "oi": 6465388.0
     },
     "MP-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1835.3
+      "observed_at": 1794615317908,
+      "oi": 1828.2
     },
     "MPWR-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 17.058999999999997
+      "observed_at": 1794615317908,
+      "oi": 20.845
     },
     "MRK-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 927.2700000000001
+      "observed_at": 1794615317908,
+      "oi": 929.8999999999999
     },
     "MRNA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 7297.32
+      "observed_at": 1794615317908,
+      "oi": 6984.12
     },
     "MRVL-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 40802.27000000001
+      "observed_at": 1794615317908,
+      "oi": 41185.49
     },
     "MSFT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 9123.500000000002
+      "observed_at": 1794615317908,
+      "oi": 9138.840000000002
     },
     "MSTR-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 156938.94000000003
+      "observed_at": 1794615317908,
+      "oi": 155338.12000000002
     },
     "MSTU-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 29732.300000000003
+      "observed_at": 1794615317908,
+      "oi": 29183.0
     },
     "MU-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 47509.15000000003
+      "observed_at": 1794615317908,
+      "oi": 46868.11000000004
     },
     "MUBARAK-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 908673.0
+      "observed_at": 1794615317908,
+      "oi": 904894.0
     },
     "MURATA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 425.6
+      "observed_at": 1794615317908,
+      "oi": 420.9
     },
     "MUU-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 59406.47
+      "observed_at": 1794615317908,
+      "oi": 65380.83000000001
     },
     "MVLL-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 64929.600000000006
+      "observed_at": 1794615317908,
+      "oi": 63816.2
     },
     "NAVER-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 335.32
+      "observed_at": 1794615317908,
+      "oi": 335.57
     },
     "NBIS-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 48565.72000000001
+      "observed_at": 1794615317908,
+      "oi": 47639.76
     },
     "NEAR-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1341741.0
+      "observed_at": 1794615317908,
+      "oi": 1316662.9000000001
     },
     "NEIRO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 7516394.0
+      "observed_at": 1794615317908,
+      "oi": 7391799.0
     },
     "NEO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 102147.0
+      "observed_at": 1794615317908,
+      "oi": 103449.0
     },
     "NES-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 495649.0
+      "observed_at": 1794615317908,
+      "oi": 487474.0
     },
     "NET-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 651.12
+      "observed_at": 1794615317908,
+      "oi": 651.2800000000001
     },
     "NFLX-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 14591.17
+      "observed_at": 1794615317908,
+      "oi": 14532.799999999997
     },
     "NG-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1016977.0
+      "observed_at": 1794615317908,
+      "oi": 1004185.0
     },
     "NIGHT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 696631.0
+      "observed_at": 1794615317908,
+      "oi": 704240.0
     },
     "NKE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3774.0
+      "observed_at": 1794615317908,
+      "oi": 3746.9
     },
     "NMR-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 729870.0
+      "observed_at": 1794615317908,
+      "oi": 747639.0
     },
     "NOK-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 90823.40000000001
+      "observed_at": 1794615317908,
+      "oi": 90766.6
     },
     "NOT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 15126930.0
+      "observed_at": 1794615317908,
+      "oi": 14580064.0
     },
     "NOW-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3815.43
+      "observed_at": 1794615317908,
+      "oi": 3811.2299999999996
     },
     "NVDA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 543397.5700000001
+      "observed_at": 1794615317908,
+      "oi": 543347.5
     },
     "NVDL-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 29606.600000000002
+      "observed_at": 1794615317908,
+      "oi": 29272.9
     },
     "NVO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2785.0
+      "observed_at": 1794615317908,
+      "oi": 2728.2
     },
     "O-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 448298.0
+      "observed_at": 1794615317908,
+      "oi": 441478.0
     },
     "OFC-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1151568.0
+      "observed_at": 1794615317908,
+      "oi": 1145063.0
     },
     "OKB-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 18402666.0
+      "observed_at": 1794615317908,
+      "oi": 18463325.0
     },
     "OKLO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 4474.8
+      "observed_at": 1794615317908,
+      "oi": 4443.400000000001
     },
     "OKTA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 819.75
+      "observed_at": 1794615317908,
+      "oi": 823.91
     },
     "OL-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1160116.0
+      "observed_at": 1794615317908,
+      "oi": 1120181.0
     },
     "ON-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3254.1
+      "observed_at": 1794615317908,
+      "oi": 3535.9000000000005
     },
     "ONDO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2754234.0
+      "observed_at": 1794615317908,
+      "oi": 2748422.0
     },
     "ONDS-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 35282.0
+      "observed_at": 1794615317908,
+      "oi": 33007.0
     },
     "ONE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 13506171.0
+      "observed_at": 1794615317908,
+      "oi": 11995630.0
     },
     "ONT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1202133.0
+      "observed_at": 1794615317908,
+      "oi": 1209519.0
     },
     "OP-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 37175814.0
+      "observed_at": 1794615317908,
+      "oi": 37283471.0
     },
     "OPENAI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 22871.329999999998
+      "observed_at": 1794615317908,
+      "oi": 22870.42
     },
     "OPG-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 306754.0
+      "observed_at": 1794615317908,
+      "oi": 302601.0
     },
     "OPN-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1111961.0
+      "observed_at": 1794615317908,
+      "oi": 1127690.0
     },
     "ORCL-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 23988.27
+      "observed_at": 1794615317908,
+      "oi": 23838.83
     },
     "ORDER-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1485198.0
+      "observed_at": 1794615317908,
+      "oi": 1473259.0
     },
     "ORDI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 9399343.0
+      "observed_at": 1794615317908,
+      "oi": 9466041.0
     },
     "OSCR-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1062.6
+      "observed_at": 1794615317908,
+      "oi": 1056.3000000000002
     },
     "OURA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 7112.600000000001
+      "observed_at": 1794615317908,
+      "oi": 7088.300000000001
     },
     "OUST-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1138.2999999999997
+      "observed_at": 1794615317908,
+      "oi": 1169.6999999999998
     },
     "OXY-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 201.39999999999998
+      "observed_at": 1794615317908,
+      "oi": 203.6
     },
     "PANW-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 365.53
+      "observed_at": 1794615317908,
+      "oi": 370.28999999999996
     },
     "PARTI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2446067.0
+      "observed_at": 1794615317908,
+      "oi": 2393624.0
     },
     "PDD-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3415.2000000000003
+      "observed_at": 1794615317908,
+      "oi": 3384.5
     },
     "PENDLE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1771804.0
+      "observed_at": 1794615317908,
+      "oi": 1763906.0
     },
     "PENG-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3137.4000000000005
+      "observed_at": 1794615317908,
+      "oi": 3092.4000000000005
     },
     "PENGU-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 9141575.0
+      "observed_at": 1794615317908,
+      "oi": 8980059.0
     },
     "PEOPLE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3152640.0
+      "observed_at": 1794615317908,
+      "oi": 3097171.0
     },
     "PEP-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 173.63000000000002
+      "observed_at": 1794615317908,
+      "oi": 173.47000000000003
     },
     "PEPE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 776281.8000000002
+      "observed_at": 1794615317908,
+      "oi": 755434.1
     },
     "PFE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3663.2000000000003
+      "observed_at": 1794615317908,
+      "oi": 3589.5
     },
     "PI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 22883326.0
+      "observed_at": 1794615317908,
+      "oi": 22669137.0
     },
     "PIEVERSE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 388157.0
+      "observed_at": 1794615317908,
+      "oi": 387877.0
     },
     "PIPPIN-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 8940693.0
+      "observed_at": 1794615317908,
+      "oi": 8941008.0
     },
     "PLTR-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 10635.25
+      "observed_at": 1794615317908,
+      "oi": 10545.609999999999
     },
     "PLUME-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 5087024.0
+      "observed_at": 1794615317908,
+      "oi": 4760101.0
     },
     "PNUT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2862818.0
+      "observed_at": 1794615317908,
+      "oi": 2879212.0
     },
     "POET-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 32547.3
+      "observed_at": 1794615317908,
+      "oi": 32724.6
     },
     "POL-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 5580256.0
+      "observed_at": 1794615317908,
+      "oi": 5528406.0
     },
     "PONS-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 4202294.0
+      "observed_at": 1794615317908,
+      "oi": 4275611.0
     },
     "POPCAT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 933139.0
+      "observed_at": 1794615317908,
+      "oi": 948354.0
     },
     "POPMART-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 29296.899999999998
+      "observed_at": 1794615317908,
+      "oi": 29196.7
     },
     "PROS-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1562396.0
+      "observed_at": 1794615317908,
+      "oi": 1552457.0
     },
     "PROVE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1854087.0
+      "observed_at": 1794615317908,
+      "oi": 1963401.0
     },
     "PUMP-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 5699000.0
+      "observed_at": 1794615317908,
+      "oi": 5902738.0
     },
     "PURR-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 64581.70000000001
+      "observed_at": 1794615317908,
+      "oi": 65236.70000000001
     },
     "PYPL-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1489.4
+      "observed_at": 1794615317908,
+      "oi": 1489.6000000000001
     },
     "PYTH-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2911226.0
+      "observed_at": 1794615317908,
+      "oi": 2834634.0
     },
     "QCOM-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 5492.56
+      "observed_at": 1794615317908,
+      "oi": 5491.69
     },
     "QNT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 5754.4
+      "observed_at": 1794615317908,
+      "oi": 5831.5
     },
     "QQQ-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 52467.25000000005
+      "observed_at": 1794615317908,
+      "oi": 51654.59000000005
     },
     "QTUM-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 543329.0
+      "observed_at": 1794615317908,
+      "oi": 551019.0
     },
     "QUANT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 584915.0
+      "observed_at": 1794615317908,
+      "oi": 550853.0
     },
     "RAM-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 38251.6
+      "observed_at": 1794615317908,
+      "oi": 38132.99999999999
     },
     "RAVE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 905257.14
+      "observed_at": 1794615317908,
+      "oi": 906090.6000000001
     },
     "RAY-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1540967.0
+      "observed_at": 1794615317908,
+      "oi": 1496296.0
     },
     "RDDT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1813.34
+      "observed_at": 1794615317908,
+      "oi": 1838.37
     },
     "RDW-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 12273.7
+      "observed_at": 1794615317908,
+      "oi": 12299.0
     },
     "RE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 262452.0
+      "observed_at": 1794615317908,
+      "oi": 257146.0
     },
     "RECALL-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 266588.0
+      "observed_at": 1794615317908,
+      "oi": 268205.0
     },
     "RENDER-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1823961.0
+      "observed_at": 1794615317908,
+      "oi": 1802581.0
     },
     "RESOLV-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 5370428.0
+      "observed_at": 1794615317908,
+      "oi": 5369309.0
     },
     "RIOT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2746.6
+      "observed_at": 1794615317908,
+      "oi": 2677.9
     },
     "RIVER-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 16209026.0
+      "observed_at": 1794615317908,
+      "oi": 15892518.0
     },
     "RIVN-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 14092.2
+      "observed_at": 1794615317908,
+      "oi": 14184.400000000001
     },
     "RKLB-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 35863.46
+      "observed_at": 1794615317908,
+      "oi": 35384.950000000004
     },
     "RLS-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1541821.0
+      "observed_at": 1794615317908,
+      "oi": 1491545.0
     },
     "ROBO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 890299.0
+      "observed_at": 1794615317908,
+      "oi": 893630.0
     },
     "ROK-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 160.52
+      "observed_at": 1794615317908,
+      "oi": 160.29000000000002
     },
     "RSR-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 4485103.0
+      "observed_at": 1794615317908,
+      "oi": 4432360.0
     },
     "RUM-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 5374.0
+      "observed_at": 1794615317908,
+      "oi": 5768.0
     },
     "RVN-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 31253616.0
+      "observed_at": 1794615317908,
+      "oi": 31226796.0
     },
     "S-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2606773.0
+      "observed_at": 1794615317908,
+      "oi": 2579820.0
     },
     "SAHARA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 9704497.0
+      "observed_at": 1794615317908,
+      "oi": 9722111.0
     },
     "SAMSUNG-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 17284.500000000004
+      "observed_at": 1794615317908,
+      "oi": 16688.99
     },
     "SAND-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 5435936.0
+      "observed_at": 1794615317908,
+      "oi": 5375312.0
     },
     "SAPIEN-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 263333.0
+      "observed_at": 1794615317908,
+      "oi": 256893.0
     },
     "SATS-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 7065099.0
+      "observed_at": 1794615317908,
+      "oi": 7154562.0
     },
     "SECZ-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 19696.3
+      "observed_at": 1794615317908,
+      "oi": 19885.4
     },
     "SEI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 4594904.0
+      "observed_at": 1794615317908,
+      "oi": 4603322.0
     },
     "SENT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 482137.0
+      "observed_at": 1794615317908,
+      "oi": 481611.0
     },
     "SHAZ-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 9017.7
+      "observed_at": 1794615317908,
+      "oi": 8687.7
     },
     "SHEIN-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 29854.0
+      "observed_at": 1794615317908,
+      "oi": 30026.0
     },
     "SHELL-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2612515.0
+      "observed_at": 1794615317908,
+      "oi": 2982924.0
     },
     "SHIB-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1453038.2000000002
+      "observed_at": 1794615317908,
+      "oi": 1430843.3
     },
     "SHLD-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 638.0
+      "observed_at": 1794615317908,
+      "oi": 637.5999999999999
     },
     "SHOP-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 727.38
+      "observed_at": 1794615317908,
+      "oi": 732.8
     },
     "SIGN-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 573415.0
+      "observed_at": 1794615317908,
+      "oi": 577988.0
     },
     "SIMO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 244.08
+      "observed_at": 1794615317908,
+      "oi": 249.65
     },
     "SKDD-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 66659.7
+      "observed_at": 1794615317908,
+      "oi": 66594.4
     },
     "SKHY-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 188433.92999999996
+      "observed_at": 1794615317908,
+      "oi": 187052.88999999998
     },
     "SKHYNIX-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 46668.25100000002
+      "observed_at": 1794615317908,
+      "oi": 45590.03900000001
     },
     "SKUU-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 77090.3
+      "observed_at": 1794615317908,
+      "oi": 76327.80000000002
     },
     "SKY-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 135634.0
+      "observed_at": 1794615317908,
+      "oi": 133343.0
     },
     "SLX-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3634964.0
+      "observed_at": 1794615317908,
+      "oi": 3873887.0
     },
     "SMCI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 23628.600000000002
+      "observed_at": 1794615317908,
+      "oi": 22773.6
     },
     "SMH-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1348.1999999999998
+      "observed_at": 1794615317908,
+      "oi": 1346.8300000000002
     },
     "SMR-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 6279.0
+      "observed_at": 1794615317908,
+      "oi": 6373.0
     },
     "SNDK-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 112326.90000000005
+      "observed_at": 1794615317908,
+      "oi": 104582.87600000005
     },
     "SNOW-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 698.44
+      "observed_at": 1794615317908,
+      "oi": 692.33
     },
     "SNX-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2827602.0
+      "observed_at": 1794615317908,
+      "oi": 2889802.0
     },
     "SNXX-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1711232.9000000001
+      "observed_at": 1794615317908,
+      "oi": 1570116.4000000001
     },
     "SOFI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2529.4
+      "observed_at": 1794615317908,
+      "oi": 2534.0
     },
     "SOFTBANK-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 7748.599999999999
+      "observed_at": 1794615317908,
+      "oi": 7644.299999999999
     },
     "SOL-USD-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 4056505.0
+      "observed_at": 1794615317908,
+      "oi": 4031658.0
     },
     "SOL-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3621528.09
+      "observed_at": 1794615317908,
+      "oi": 3593067.6700000013
     },
     "SONY-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 5117.0
+      "observed_at": 1794615317908,
+      "oi": 5120.7
     },
     "SOON-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1108128.7000000002
+      "observed_at": 1794615317908,
+      "oi": 1077310.5000000002
     },
     "SOPH-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 4914303.0
+      "observed_at": 1794615317908,
+      "oi": 4502701.0
     },
     "SOXL-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 818547.6200000003
+      "observed_at": 1794615317908,
+      "oi": 756929.41
     },
     "SOXS-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 143604.8
+      "observed_at": 1794615317908,
+      "oi": 138609.0
     },
     "SPACE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3144509.0
+      "observed_at": 1794615317908,
+      "oi": 3169950.0
     },
     "SPCH-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 15139.0
+      "observed_at": 1794615317908,
+      "oi": 15917.0
     },
     "SPCX-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 431579.54
+      "observed_at": 1794615317908,
+      "oi": 415451.45
     },
     "SPK-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 318399.0
+      "observed_at": 1794615317908,
+      "oi": 316401.0
     },
     "SPX-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1467972.0
+      "observed_at": 1794615317908,
+      "oi": 1345805.0
     },
     "SPY-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 14370.810000000001
+      "observed_at": 1794615317908,
+      "oi": 14510.12
     },
     "SQQQ-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 56818.3
+      "observed_at": 1794615317908,
+      "oi": 58077.60000000001
     },
     "SSV-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2749435.0
+      "observed_at": 1794615317908,
+      "oi": 2751754.0
     },
     "STABLE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 78751.0
+      "observed_at": 1794615317908,
+      "oi": 80403.0
     },
     "STRC-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 10599.0
+      "observed_at": 1794615317908,
+      "oi": 10727.800000000001
     },
     "STRK-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 111392176.0
+      "observed_at": 1794615317908,
+      "oi": 110572616.0
     },
     "STX-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 797094.6000000001
+      "observed_at": 1794615317908,
+      "oi": 788022.2000000001
     },
     "SUI-USD-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 359545.0
+      "observed_at": 1794615317908,
+      "oi": 360478.0
     },
     "SUI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 31061834.0
+      "observed_at": 1794615317908,
+      "oi": 30338701.0
     },
     "SUSHI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 4558258.0
+      "observed_at": 1794615317908,
+      "oi": 4513823.0
     },
     "SYRUP-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 528888.0
+      "observed_at": 1794615317908,
+      "oi": 533029.0
     },
     "TAO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 6754921.0
+      "observed_at": 1794615317908,
+      "oi": 6886210.0
     },
     "TEAM-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 328.05
+      "observed_at": 1794615317908,
+      "oi": 334.84000000000003
     },
     "TEM-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2875.1
+      "observed_at": 1794615317908,
+      "oi": 2900.4
     },
     "TER-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 679.8299999999999
+      "observed_at": 1794615317908,
+      "oi": 683.8399999999999
     },
     "THETA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 293021.39999999997
+      "observed_at": 1794615317908,
+      "oi": 290185.19999999995
     },
     "TIA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 11816536.0
+      "observed_at": 1794615317908,
+      "oi": 11993860.0
     },
     "TLT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1366.6999999999998
+      "observed_at": 1794615317908,
+      "oi": 1590.0
     },
     "TMF-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 10097.4
+      "observed_at": 1794615317908,
+      "oi": 10075.4
     },
     "TQQQ-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 76742.6
+      "observed_at": 1794615317908,
+      "oi": 74138.10000000002
     },
     "TRB-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1761620.0
+      "observed_at": 1794615317908,
+      "oi": 1767490.0
     },
     "TRIA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1371891.0
+      "observed_at": 1794615317908,
+      "oi": 1356690.0
     },
     "TRUMP-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 98963703.0
+      "observed_at": 1794615317908,
+      "oi": 97388706.0
     },
     "TRUST-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 370789.0
+      "observed_at": 1794615317908,
+      "oi": 304370.0
     },
     "TRUTH-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 562168.0
+      "observed_at": 1794615317908,
+      "oi": 557400.0
     },
     "TRX-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 71551.62000000002
+      "observed_at": 1794615317908,
+      "oi": 72579.62000000001
     },
     "TSEM-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 738.5000000000001
+      "observed_at": 1794615317908,
+      "oi": 735.0500000000001
     },
     "TSLA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 36505.81000000002
+      "observed_at": 1794615317908,
+      "oi": 36402.20000000001
     },
     "TSLL-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 21058.0
+      "observed_at": 1794615317908,
+      "oi": 21247.0
     },
     "TSM-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 10871.789999999999
+      "observed_at": 1794615317908,
+      "oi": 10795.4
     },
     "TTMI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1232.0
+      "observed_at": 1794615317908,
+      "oi": 1234.55
     },
     "TTWO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1138.21
+      "observed_at": 1794615317908,
+      "oi": 1154.26
     },
     "TURBO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 76266.8
+      "observed_at": 1794615317908,
+      "oi": 75723.2
     },
     "TWLO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 484.51
+      "observed_at": 1794615317908,
+      "oi": 491.84000000000003
     },
     "TWST-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 539.9200000000001
+      "observed_at": 1794615317908,
+      "oi": 522.8
     },
     "TXN-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 346.87
+      "observed_at": 1794615317908,
+      "oi": 340.37
     },
     "UB-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 56650.0
+      "observed_at": 1794615317908,
+      "oi": 53275.0
     },
     "UMA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 6922597.0
+      "observed_at": 1794615317908,
+      "oi": 6958955.0
     },
     "UMC-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1978.8000000000002
+      "observed_at": 1794615317908,
+      "oi": 1992.2
     },
     "UNH-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 202.88
+      "observed_at": 1794615317908,
+      "oi": 200.51000000000002
     },
     "UNI-USD-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 295414.0
+      "observed_at": 1794615317908,
+      "oi": 294859.0
     },
     "UNI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 6147066.0
+      "observed_at": 1794615317908,
+      "oi": 6058523.0
     },
     "UNITREE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 82304.25000000001
+      "observed_at": 1794615317908,
+      "oi": 81808.05
     },
     "UP-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 822553.0
+      "observed_at": 1794615317908,
+      "oi": 869299.0
     },
     "URNM-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 4523.0
+      "observed_at": 1794615317908,
+      "oi": 4493.0
     },
     "US100-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 19.2103
+      "observed_at": 1794615317908,
+      "oi": 19.264899999999997
     },
     "US500-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 41.646
+      "observed_at": 1794615317908,
+      "oi": 42.899
     },
     "USAR-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 112463.99999999999
+      "observed_at": 1794615317908,
+      "oi": 111987.29999999999
     },
     "USDC-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 65139.0
+      "observed_at": 1794615317908,
+      "oi": 64850.0
     },
     "USELESS-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2541921.0
+      "observed_at": 1794615317908,
+      "oi": 2643340.0
     },
     "USO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1086.42
+      "observed_at": 1794615317908,
+      "oi": 1086.09
     },
     "UVXY-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 40178.5
+      "observed_at": 1794615317908,
+      "oi": 39839.6
     },
     "V-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 189.34
+      "observed_at": 1794615317908,
+      "oi": 189.68
     },
     "VANA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1191663.0
+      "observed_at": 1794615317908,
+      "oi": 1135533.0
     },
     "VICR-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 120.05
+      "observed_at": 1794615317908,
+      "oi": 118.74
     },
     "VIRTUAL-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 4383717.0
+      "observed_at": 1794615317908,
+      "oi": 4341795.0
     },
     "VRT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1010.6499999999999
+      "observed_at": 1794615317908,
+      "oi": 1010.3499999999999
     },
     "VST-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 470.61
+      "observed_at": 1794615317908,
+      "oi": 453.46
     },
     "VVV-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 3074374.0
+      "observed_at": 1794615317908,
+      "oi": 3195648.0
     },
     "W-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 129086570.0
+      "observed_at": 1794615317908,
+      "oi": 130761228.0
     },
     "WAL-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 983491.0
+      "observed_at": 1794615317908,
+      "oi": 953859.0
     },
     "WCT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1175706.0
+      "observed_at": 1794615317908,
+      "oi": 1173952.0
     },
     "WDC-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 5946.909999999999
+      "observed_at": 1794615317908,
+      "oi": 5756.9
     },
     "WEN-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 15493.0
+      "observed_at": 1794615317908,
+      "oi": 15728.0
     },
     "WET-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 699077.0
+      "observed_at": 1794615317908,
+      "oi": 681755.0
     },
     "WIF-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 22533360.0
+      "observed_at": 1794615317908,
+      "oi": 22148297.0
     },
     "WLD-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 87489684.0
+      "observed_at": 1794615317908,
+      "oi": 85148365.0
     },
     "WLFI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 13965049.0
+      "observed_at": 1794615317908,
+      "oi": 13833759.0
     },
     "WMT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1454.2299999999998
+      "observed_at": 1794615317908,
+      "oi": 1432.9199999999998
     },
     "WOO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1512190.0
+      "observed_at": 1794615317908,
+      "oi": 1524130.0
     },
     "WUXIBIO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 5049.0
+      "observed_at": 1794615317908,
+      "oi": 5032.0
     },
     "XAG-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 82777373.0
+      "observed_at": 1794615317908,
+      "oi": 82329125.0
     },
     "XAU-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 45607344.0
+      "observed_at": 1794615317908,
+      "oi": 45649819.0
     },
     "XBI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 898.3000000000001
+      "observed_at": 1794615317908,
+      "oi": 916.8699999999999
     },
     "XCU-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 231571.0
+      "observed_at": 1794615317908,
+      "oi": 231023.0
     },
     "XDP-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 664458.0
+      "observed_at": 1794615317908,
+      "oi": 661889.0
     },
     "XIAOMI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 536400.0
+      "observed_at": 1794615317908,
+      "oi": 535700.0
     },
     "XLE-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 5774.7
+      "observed_at": 1794615317908,
+      "oi": 5797.4
     },
     "XLM-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 614791.1
+      "observed_at": 1794615317908,
+      "oi": 611081.0
     },
     "XLV-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 365.91
+      "observed_at": 1794615317908,
+      "oi": 351.65
     },
     "XOM-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 829.88
+      "observed_at": 1794615317908,
+      "oi": 847.73
     },
     "XPD-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 498025.0
+      "observed_at": 1794615317908,
+      "oi": 498863.0
     },
     "XPL-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 12823425.0
+      "observed_at": 1794615317908,
+      "oi": 12411934.0
     },
     "XPT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 374513.0
+      "observed_at": 1794615317908,
+      "oi": 371808.0
     },
     "XRP-USD-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1355848.0
+      "observed_at": 1794615317908,
+      "oi": 1367520.0
     },
     "XRP-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 841862.3299999995
+      "observed_at": 1794615317908,
+      "oi": 823702.3799999997
     },
     "XTZ-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 4038085.0
+      "observed_at": 1794615317908,
+      "oi": 3990002.0
     },
     "YB-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 4685956.0
+      "observed_at": 1794615317908,
+      "oi": 4662399.0
     },
     "YFI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2561584.0
+      "observed_at": 1794615317908,
+      "oi": 2554505.0
     },
     "YGG-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 28733372.0
+      "observed_at": 1794615317908,
+      "oi": 28823793.0
     },
     "ZAMA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 4137139.0
+      "observed_at": 1794615317908,
+      "oi": 4108172.0
     },
     "ZBT-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 6698491.0
+      "observed_at": 1794615317908,
+      "oi": 6280151.0
     },
     "ZEC-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 13432180.0
+      "observed_at": 1794615317908,
+      "oi": 13301126.0
     },
     "ZEN-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2245447.0
+      "observed_at": 1794615317908,
+      "oi": 2243376.0
     },
     "ZETA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2427958.0
+      "observed_at": 1794615317908,
+      "oi": 2440938.0
     },
     "ZHIPU-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 61904.89
+      "observed_at": 1794615317908,
+      "oi": 61793.18
     },
     "ZHONGJI-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 37919.68000000001
+      "observed_at": 1794615317908,
+      "oi": 37188.83000000001
     },
     "ZIL-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 2773276.0
+      "observed_at": 1794615317908,
+      "oi": 2725342.0
     },
     "ZK-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 19055593.0
+      "observed_at": 1794615317908,
+      "oi": 18614694.0
     },
     "ZKP-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 529425.0
+      "observed_at": 1794615317908,
+      "oi": 530174.0
     },
     "ZM-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 1152.4
+      "observed_at": 1794615317908,
+      "oi": 1154.1000000000001
     },
     "ZORA-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 5671322.0
+      "observed_at": 1794615317908,
+      "oi": 5787696.0
     },
     "ZRO-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 4179542.0
+      "observed_at": 1794615317908,
+      "oi": 4172432.0
     },
     "ZRX-USDT-SWAP": {
-      "observed_at": 1794596488923,
-      "oi": 411031.0
+      "observed_at": 1794615317908,
+      "oi": 411330.0
     }
   },
   "seen_trades": {},
