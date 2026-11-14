@@ -1,12 +1,61 @@
 {
-  "max_pairs": 55,
-  "min_24h_turnover_usdt": 5000000,
-  "max_alerts_per_run": 6,
-  "min_score": 6,
-  "trade_sampling_min_rvol": 2.5,
-  "awakening": {"enabled": true, "min_rvol": 5.0, "max_abs_move": 2.5, "min_oi_percent": 0.5},
-  "momentum": {"enabled": true, "min_rvol": 3.0, "min_abs_move": 2.0},
-  "early_buy": {"enabled": true, "min_rvol": 4.0, "max_move": 2.0, "min_buy_pressure": 57.0},
-  "whale": {"enabled": true, "min_trade_usdt": 1000000, "scan_top_pairs": 15, "max_trade_age_seconds": 90},
-  "cooldown_minutes": {"AWAKENING": 30, "MOMENTUM": 15, "EARLY BUY WATCH": 30}
+  "sources": {
+    "OKX": true,
+    "GATE": true,
+    "KUCOIN": true,
+    "BINANCE_SPOT": true,
+    "DEX": true
+  },
+  "min_daily_usd": 250000,
+  "min_5m_usd": 30000,
+  "max_pairs_per_source": 0,
+  "max_alerts": 20,
+  "baseline_candles": 6,
+  "awakening_rvol": 3,
+  "awakening_max_move": 2.5,
+  "momentum_rvol": 3,
+  "momentum_min_move": 2,
+  "early_buy_rvol": 4,
+  "early_buy_min_pressure": 55,
+  "early_buy_max_move": 2,
+  "early_buy_min_oi": 0.5,
+  "cooldown_minutes": {
+    "AWAKENING": 30,
+    "MOMENTUM": 15,
+    "EARLY BUY WATCH": 30
+  },
+  "dex_min_liquidity": 50000,
+  "dex_min_age_minutes": 60,
+  "dex_max_tokens": 100,
+  "dex_min_5m_trades": 10,
+  "dex_chains": [
+    "solana",
+    "ethereum",
+    "bsc",
+    "base",
+    "arbitrum",
+    "polygon",
+    "avalanche"
+  ],
+  "source_budget_seconds": 210,
+  "request_rates": {
+    "OKX": 6,
+    "GATE": 5,
+    "KUCOIN": 5,
+    "BINANCE_SPOT": 6,
+    "DEX": 3
+  },
+  "excluded_assets": [
+    "BTC",
+    "XBT",
+    "ETH",
+    "USDT",
+    "USDC",
+    "DAI",
+    "FDUSD",
+    "TUSD",
+    "USDE",
+    "USD1"
+  ],
+  "dex_gecko_discovery": true
 }
